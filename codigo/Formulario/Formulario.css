@@ -1,0 +1,168 @@
+*{
+    max-width: 1900px;
+    max-height: 1900px;
+    margin: 0;
+    padding: 0;
+}
+
+#Título{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 6%;
+}
+
+#Sub-Título{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 12%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #bef1b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    justify-content: center;
+    width: 100%;
+}
+
+.formul{
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+input, select, textarea{
+    border-radius: 10px;
+}
+
+.cp{
+    margin-bottom: 1em;
+}
+
+.cp label{
+    margin: 0.2em;
+    color: #4000ff;
+    display: block;
+}
+
+fieldset .gp .cp{
+    float: left;
+    margin-right: 1em;
+}
+
+.cp input[type="text"], .cp input[type="Email"], .cp select, .cp textarea{
+    padding: 0.2em;
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px rgba(0, 0 , 0, 0.2);
+    display: block;
+}
+
+.cp select option{
+    padding-right: 1em;
+}
+
+.cp input:focus, .cp select:focus, .cp textarea:focus{
+    background-color: grey;
+}
+
+img{
+    color: #4000ff;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}
+
+.container{
+    padding: 0.2em, 0.6em;
+    height: 300px;
+    width: 50%;
+}
+
+.container .wrapper{
+    padding: 0.2em, 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: relative;
+    height: 300px;
+    width: 50%;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.custon-btn{
+    padding: 0.2em, 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.wrapper .imagem{
+    padding: 0.2em, 0.6em;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper .imagem img{
+    padding: 0.2em, 0.6em;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper .icon{
+    padding: 0.2em, 0.6em;
+    font-size: 100px;
+    color: #9858fe;
+}
+
+.wrapper .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5b5b7b;
+}
+
+.Botão{
+    font-size: 1.2em;
+    background: rgb(0, 0, 0);
+    border: 0;
+    margin-bottom: 1em;
+    margin-left: 12%;
+    color: white;
+    padding: 0.2em, 0.6em;
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px rgba(0, 0 , 0, 0.2);
+    display: block;
+    position:absolute; 
+    transform: translate(-50%, -50%);
+}
+
+.Botão:hover{
+    background: #4000ff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 2%;
+    width: 100%;
+    position: fixed;
+ }
